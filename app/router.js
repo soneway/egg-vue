@@ -5,5 +5,5 @@ module.exports = (app) => {
     }
   } = app;
 
-  app.get('/', index.render);
+  // app.get('/:pathname', index.render);
 };
